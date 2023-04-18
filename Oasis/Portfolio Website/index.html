@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+    <!----CSS link----->
+    <link rel="icon" href="img/Group 8.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <!----Fontawesome CDN Link----->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+</head>
+<body>
+
+    <div class="hero">
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="tel:+91 9391511908">Contact </a></li>
+                <li><a href="#">About Me</a></li>
+            </ul>
+            <a href="#" class="btn">Hire Me</a>
+        </nav>
+        <div class="info">
+            <h1>Hello, I am <span>Suraj Gundredipally</span></h1>
+            <h1>I'm a <span class="multiText"></span></h1>
+            <p>Welcome to my official Portfolio Website Where I put all<br> my work related to my projects and many more.</p>
+            <a href="img/Resume_Suraj_Gundredipally.pdf" download class="btn">Download CV</a>
+        </div>
+        <div class="img-box">
+            <img src="./img/back.png" class="back-img">
+            <img src="./img/suraj.jpg" class="man-img">
+        </div>
+        <div class="social">
+            <a href="mailto:gsurajgoud@gmail.com" target="_blank"><i class="fa fa-envelope" ></i></a>
+            <a href="#"><i class="fab fa-dribbble"></i></a>
+            <a href="https://github.com/SURAJGUNDREDIPALLY" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/suraj-gundredipally" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+    </div>
+    <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+    <script>
+        var typingEffect = new Typed(".multiText",{
+            strings : ["Coder","Designer","Full-stack Developer"],
+            loop : true,
+            typeSpeed:100,
+            backSpeed:80,
+            backDelay:1500,
+        })
+    </script>
+</body>
+</html>
